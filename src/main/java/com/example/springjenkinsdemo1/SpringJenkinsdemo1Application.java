@@ -15,10 +15,10 @@ public class SpringJenkinsdemo1Application {
 	public static Logger logger=LoggerFactory.getLogger(SpringJenkinsdemo1Application.class);
 	@PostConstruct
 	public void init() {
-		logger.info("Application started.........");
+		logger.info("Application started.........froms logger");
 	}
 	public static void main(String[] args) {
-		logger.info("Application executed.........");
+		logger.info("Application executed.........log INFO");
 		SpringApplication.run(SpringJenkinsdemo1Application.class, args);
 	}
 
